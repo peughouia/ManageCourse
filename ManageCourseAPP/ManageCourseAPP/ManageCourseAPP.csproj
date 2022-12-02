@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Apprenant.cs" />
+    <Compile Include="Entity\Classe.cs" />
+    <Compile Include="Entity\EmploiDuTemps.cs" />
+    <Compile Include="Entity\Enseignant.cs" />
+    <Compile Include="Entity\Matiere.cs" />
+    <Compile Include="Entity\Note.cs" />
+    <Compile Include="Entity\Parent.cs" />
+    <Compile Include="Entity\Promoteur.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +83,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
