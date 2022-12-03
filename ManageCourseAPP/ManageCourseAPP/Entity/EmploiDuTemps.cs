@@ -13,18 +13,16 @@ namespace ManageCourseAPP.Entity
         public DateTime heureDEb;
         public DateTime heureFin;
         public DateTime dateEmp;
-        public Promoteur idpro;
         public Classe idClasse;
 
         public static int nb;
-        public EmploiDuTemps(Matiere idMat, DateTime heureDeb, DateTime heureFin,DateTime dateEmp,Promoteur idpro, Classe idClasse)
+        public EmploiDuTemps(Matiere idMat, DateTime heureDeb, DateTime heureFin,DateTime dateEmp,Classe idClasse)
         {
             this.idEmp = nb++;
             this.idMat = idMat;
             this.heureDEb= heureDeb;
             this.heureFin = heureFin;
             this.dateEmp = dateEmp;
-            this.idpro = idpro;
             this.idClasse= idClasse;
         }
     }

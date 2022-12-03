@@ -10,15 +10,13 @@ namespace ManageCourseAPP.Entity
     {
         public int idMat;
         public string nomMat;
-        public Enseignant idensei;
 
         public static int nb;
 
-        public Matiere(string nomMat, Enseignant idensei) 
+        public Matiere(string nomMat)
         { 
             this.idMat= nb++;
             this.nomMat = nomMat;
-            this.idensei = idensei;
         }    
     }
 }
