@@ -61,6 +61,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\D_Apprenant.cs" />
+    <Compile Include="DAL\D_Classe.cs" />
+    <Compile Include="DAL\D_EmploiDuTemp.cs" />
+    <Compile Include="DAL\D_Enseignant.cs" />
+    <Compile Include="DAL\D_Matiere.cs" />
+    <Compile Include="DAL\D_Promoteur.cs" />
     <Compile Include="Entity\Apprenant.cs" />
     <Compile Include="Entity\Classe.cs" />
     <Compile Include="Entity\EmploiDuTemps.cs" />

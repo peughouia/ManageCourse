@@ -10,7 +10,7 @@ namespace ManageCourseAPP.Entity
     {
         public int idEmp;
         public Matiere idMat;
-        public DateTime heureDEb;
+        public DateTime heureDeb;
         public DateTime heureFin;
         public DateTime dateEmp;
         public Classe idClasse;
@@ -20,7 +20,7 @@ namespace ManageCourseAPP.Entity
         {
             this.idEmp = nb++;
             this.idMat = idMat;
-            this.heureDEb= heureDeb;
+            this.heureDeb= heureDeb;
             this.heureFin = heureFin;
             this.dateEmp = dateEmp;
             this.idClasse= idClasse;
