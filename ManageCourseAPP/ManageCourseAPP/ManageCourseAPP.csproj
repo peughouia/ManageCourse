@@ -84,6 +84,45 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Frm_Add_Course.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Course.Designer.cs">
+      <DependentUpon>Frm_Add_Course.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Parent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Parent.Designer.cs">
+      <DependentUpon>Frm_Add_Parent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Student.Designer.cs">
+      <DependentUpon>Frm_Add_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Frm_Add_Teacher.Designer.cs">
+      <DependentUpon>Frm_Add_Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Frm_Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Frm_Connexion.Designer.cs">
+      <DependentUpon>Frm_Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Frm_Save_Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Frm_Save_Teacher.Designer.cs">
+      <DependentUpon>Frm_Save_Teacher.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,7 +131,26 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\Frm_Add_Course.resx">
+      <DependentUpon>Frm_Add_Course.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Frm_Add_Parent.resx">
+      <DependentUpon>Frm_Add_Parent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Frm_Add_Student.resx">
+      <DependentUpon>Frm_Add_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Frm_Add_Teacher.resx">
+      <DependentUpon>Frm_Add_Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Frm_Connexion.resx">
+      <DependentUpon>Frm_Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Frm_Save_Teacher.resx">
+      <DependentUpon>Frm_Save_Teacher.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -120,6 +178,66 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_button_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtract_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_male_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timetable_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Access_account_re_8spm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Educator_re_ju47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_back_to_school_inwc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_mathematics_4otb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_mathematics_4otb %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_back_to_school_inwc %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Educator_re_ju47 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Access_account_re_8spm %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Youtube_tutorial_re_69qc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
