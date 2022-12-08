@@ -35,3 +35,6 @@ D:\www\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.Vi
 D:\www\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.Resources.Frm_list_Teacher.resources
 D:\www\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.exe.config
 D:\www\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.View.Frm_Add_Class.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.View.Frm_Add_Class.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.View.Frm_list_student.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\ManageCourseAPP\ManageCourseAPP\obj\Debug\ManageCourseAPP.Resources.Frm_list_Teacher.resources

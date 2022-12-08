@@ -118,11 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="subtract_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\subtract_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maximize_button_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize_button_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="timetable_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\timetable_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_secure_login_pdn4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_secure_login_pdn4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="undraw_back_to_school_inwc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_back_to_school_inwc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -132,9 +135,6 @@
   </data>
   <data name="family_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\family_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="undraw_mathematics_4otb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_mathematics_4otb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="undraw_mathematics_4otb (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_mathematics_4otb (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,6 +151,9 @@
   <data name="undraw_Access_account_re_8spm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_Access_account_re_8spm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Close_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Close_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,11 +163,23 @@
   <data name="student_male_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\student_male_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="minimize_window_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize_window_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="undraw_Educator_re_ju47" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\undraw_Educator_re_ju47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Menu_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_Educator_re_ju47 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Educator_re_ju47 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="subtract_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\subtract_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,19 +190,13 @@
   <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="undraw_Educator_re_ju47 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\undraw_Educator_re_ju47 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maximize_button_16px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximize_button_16px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="minimize_window_30px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize_window_30px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undraw_mathematics_4otb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_mathematics_4otb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="subtract_50px2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\subtract_50px2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undraw_Real_time_sync_re_nky7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undraw_Real_time_sync_re_nky7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

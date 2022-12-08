@@ -27,9 +27,9 @@ namespace ManageCourseAPP.View
         {
             try
             {
-                if (txtClass.Text != string.Empty)
+                if (txt_RegClass.Text != string.Empty)
                 {
-                    classeService.CreateClasse(new Classe(txtClass.Text));
+                    classeService.CreateClasse(new Classe(txt_RegClass.Text));
                     MessageBox.Show("classe add success", "information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
@@ -41,6 +41,29 @@ namespace ManageCourseAPP.View
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            var dialogResult = MessageBox.Show(
+               "Are you sure you want to close this window?",
+               "Close windows",
+               MessageBoxButtons.YesNo,
+               MessageBoxIcon.Warning
+               );
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else
+            {
+
             }
         }
     }

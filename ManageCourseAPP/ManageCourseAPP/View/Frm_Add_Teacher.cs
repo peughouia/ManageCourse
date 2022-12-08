@@ -17,11 +17,6 @@ namespace ManageCourseAPP.Resources
             InitializeComponent();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            WindowState = FormWindowState.Minimized;
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             var dialogResult = MessageBox.Show(
@@ -40,6 +35,9 @@ namespace ManageCourseAPP.Resources
             }
         }
 
-       
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }

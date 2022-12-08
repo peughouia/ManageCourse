@@ -32,15 +32,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_Connexion = new System.Windows.Forms.Button();
+            this.btn_Register = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_Passwod = new System.Windows.Forms.TextBox();
+            this.txt_Prenom = new System.Windows.Forms.TextBox();
             this.txt_Nom = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Cb_Class = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,18 +53,16 @@
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1065, 32);
+            this.panel1.Size = new System.Drawing.Size(799, 26);
             this.panel1.TabIndex = 1;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(969, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(727, 0);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(44, 30);
+            this.pictureBox3.Size = new System.Drawing.Size(33, 24);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -73,68 +71,62 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1021, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(766, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(44, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(33, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // btn_Connexion
+            // btn_Register
             // 
-            this.btn_Connexion.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_Connexion.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.btn_Connexion.FlatAppearance.BorderSize = 4;
-            this.btn_Connexion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btn_Connexion.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Connexion.ForeColor = System.Drawing.Color.White;
-            this.btn_Connexion.Location = new System.Drawing.Point(303, 439);
-            this.btn_Connexion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_Connexion.Name = "btn_Connexion";
-            this.btn_Connexion.Size = new System.Drawing.Size(201, 75);
-            this.btn_Connexion.TabIndex = 32;
-            this.btn_Connexion.Text = "REGISTER";
-            this.btn_Connexion.UseVisualStyleBackColor = false;
+            this.btn_Register.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.btn_Register.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.btn_Register.FlatAppearance.BorderSize = 4;
+            this.btn_Register.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn_Register.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Register.ForeColor = System.Drawing.Color.White;
+            this.btn_Register.Location = new System.Drawing.Point(227, 357);
+            this.btn_Register.Name = "btn_Register";
+            this.btn_Register.Size = new System.Drawing.Size(151, 61);
+            this.btn_Register.TabIndex = 32;
+            this.btn_Register.Text = "REGISTER";
+            this.btn_Register.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(297, 49);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(223, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(290, 31);
+            this.label1.Size = new System.Drawing.Size(218, 24);
             this.label1.TabIndex = 31;
             this.label1.Text = "REGISTER STUDENT";
             // 
-            // txt_Passwod
+            // txt_Prenom
             // 
-            this.txt_Passwod.Location = new System.Drawing.Point(243, 232);
-            this.txt_Passwod.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txt_Passwod.Multiline = true;
-            this.txt_Passwod.Name = "txt_Passwod";
-            this.txt_Passwod.Size = new System.Drawing.Size(351, 33);
-            this.txt_Passwod.TabIndex = 29;
+            this.txt_Prenom.Location = new System.Drawing.Point(182, 188);
+            this.txt_Prenom.Multiline = true;
+            this.txt_Prenom.Name = "txt_Prenom";
+            this.txt_Prenom.Size = new System.Drawing.Size(264, 28);
+            this.txt_Prenom.TabIndex = 29;
             // 
             // txt_Nom
             // 
-            this.txt_Nom.Location = new System.Drawing.Point(243, 117);
-            this.txt_Nom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Nom.Location = new System.Drawing.Point(182, 95);
             this.txt_Nom.Multiline = true;
             this.txt_Nom.Name = "txt_Nom";
-            this.txt_Nom.Size = new System.Drawing.Size(351, 37);
+            this.txt_Nom.Size = new System.Drawing.Size(264, 31);
             this.txt_Nom.TabIndex = 30;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 331);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(25, 269);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 27);
+            this.label5.Size = new System.Drawing.Size(69, 21);
             this.label5.TabIndex = 23;
             this.label5.Text = "CLASS";
             // 
@@ -142,10 +134,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 230);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(25, 187);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 27);
+            this.label3.Size = new System.Drawing.Size(120, 21);
             this.label3.TabIndex = 25;
             this.label3.Text = "LAST_NAME";
             // 
@@ -153,49 +144,48 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 117);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(25, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 27);
+            this.label2.Size = new System.Drawing.Size(126, 21);
             this.label2.TabIndex = 26;
             this.label2.Text = "FIRST_NAME";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(710, 49);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(508, 40);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(331, 492);
+            this.pictureBox2.Size = new System.Drawing.Size(272, 400);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             // 
-            // comboBox1
+            // Cb_Class
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(243, 331);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(351, 24);
-            this.comboBox1.TabIndex = 34;
+            this.Cb_Class.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cb_Class.FormattingEnabled = true;
+            this.Cb_Class.Location = new System.Drawing.Point(182, 269);
+            this.Cb_Class.Margin = new System.Windows.Forms.Padding(2);
+            this.Cb_Class.Name = "Cb_Class";
+            this.Cb_Class.Size = new System.Drawing.Size(264, 27);
+            this.Cb_Class.TabIndex = 34;
             // 
             // Frm_Add_Student
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Cb_Class);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.btn_Connexion);
+            this.Controls.Add(this.btn_Register);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txt_Passwod);
+            this.Controls.Add(this.txt_Prenom);
             this.Controls.Add(this.txt_Nom);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_Add_Student";
             this.Text = "Frm_Add_Student";
             this.panel1.ResumeLayout(false);
@@ -213,13 +203,13 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btn_Connexion;
+        private System.Windows.Forms.Button btn_Register;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_Passwod;
+        private System.Windows.Forms.TextBox txt_Prenom;
         private System.Windows.Forms.TextBox txt_Nom;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox Cb_Class;
     }
 }

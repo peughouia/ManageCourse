@@ -8,15 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ManageCourseAPP.Resources
+namespace ManageCourseAPP.View
 {
-    public partial class Frm_list_Teacher : Form
+    public partial class Frm_WelcomeApp : Form
     {
-        public Frm_list_Teacher()
+        public Frm_WelcomeApp()
         {
             InitializeComponent();
         }
-
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -36,9 +35,9 @@ namespace ManageCourseAPP.Resources
             }
         }
 
-        private void pictureBox3_Click_1(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
-            WindowState = FormWindowState.Minimized;
+            WindowState= FormWindowState.Minimized;
         }
     }
 }
