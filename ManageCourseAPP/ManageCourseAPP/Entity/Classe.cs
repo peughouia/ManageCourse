@@ -8,17 +8,27 @@ namespace ManageCourseAPP.Entity
 {
     public  class Classe
     {
-        public int idClasse;
+        public int IdClasse;
 
-        public string nomClasses;
+        public string NomClasses;
+        public Classe() 
+        { 
 
-        public static int nb;
-
-
+        }
+        
+        public Classe(int idClasse, string nomClasses)
+        {
+            IdClasse= idClasse;
+            NomClasses= nomClasses;
+        }
         public Classe(string nomClasse)
         {
-            this.idClasse = nb++;
-            this.nomClasses = nomClasse;
+            NomClasses = nomClasse;
+        }
+
+        public Classe(Classe classe)
+        {
+
         }
 
     }

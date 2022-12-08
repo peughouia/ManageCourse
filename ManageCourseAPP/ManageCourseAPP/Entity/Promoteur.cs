@@ -9,20 +9,21 @@ namespace ManageCourseAPP.Entity
     public class Promoteur
     {
         public int idPro;
-        public string nomPro;
-        public string prenomPro;
-        public string nomGroup;
-        public int phonePro;
+        public string NomPro;
+        public string PrenomPro;
+        public string NomGroup;
+        public string PhonePro;
+        public string Password;
 
         public static int nb;
-        
-        public Promoteur(string nomPro,string prenomPro,string nomGroup,int phonePro) 
+        public Promoteur(string nomPro, string prenomPro, string nomGroup, string phonePro, string password)
         {
             this.idPro = nb++;
-            this.nomPro = nomPro;
-            this.prenomPro= prenomPro;
-            this.nomGroup = nomGroup;
-            this.phonePro = phonePro;
+            NomPro = nomPro;
+            PrenomPro = prenomPro;
+            NomGroup = nomGroup;
+            PhonePro = phonePro;
+            Password = password;
         }
     }
 }

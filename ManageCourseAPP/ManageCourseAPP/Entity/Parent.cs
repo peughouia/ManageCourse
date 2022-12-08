@@ -9,18 +9,20 @@ namespace ManageCourseAPP.Entity
     public class Parent
     {
         public int idPar;
-        public string nomPar;
-        public string prenomPar;
-        public int phoneParent;
+        public string NomPar;
+        public string PrenomPar;
+        public string PhoneParent;
+        public string Password;
 
         public static int nb;
 
-        public Parent(string nomPar, string prenomPar, int phonePar)
+        public Parent(string nomPar, string prenomPar, string phonePar,string password)
         {
             this.idPar = nb++;
-            this.nomPar = nomPar;
-            this.prenomPar = prenomPar;
-            this.phoneParent = phonePar;
+           NomPar = nomPar;
+           PrenomPar = prenomPar;
+           PhoneParent = phonePar;
+            Password = password;
         }
     }
 }
