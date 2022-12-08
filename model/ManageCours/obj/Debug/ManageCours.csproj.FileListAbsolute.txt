@@ -1,0 +1,14 @@
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\bin\Debug\ManageCours.exe.config
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\bin\Debug\ManageCours.exe
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\bin\Debug\ManageCours.pdb
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.csproj.AssemblyReference.cache
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.csproj.SuggestedBindingRedirects.cache
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.Frm_WelcomeApp.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.Properties.Resources.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.csproj.GenerateResource.cache
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.csproj.CoreCompileInputs.cache
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.exe
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.pdb
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.Frm_PlashScreen.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.Frm_StudTimeTable.resources
+C:\Users\jorda\OneDrive\Desktop\ManageCourse\model\ManageCours\obj\Debug\ManageCours.Frm_TimeTable.resources
